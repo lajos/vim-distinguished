@@ -67,7 +67,7 @@ call s:ColorDictParser({
 	\ , 'WarningMsg'                  : [    202,     '',           'bold',      'ff5f00',        '',           'bold']
 	\ , 'ErrorMsg'                    : [    196,     '',           'bold',      'ff0000',        '',           'bold']
 	\
-	\ , 'Comment'                     : [    238,     '',               '',      '444444',        '',               '']
+	\ , 'Comment'                     : [    242,     '',               '',      '666666',        '',               '']
 	\ , 'vimCommentTitleLeader'       : [    250,     '',               '',      'bcbcbc',        '',               '']
 	\ , 'vimCommentTitle'             : [    250,     '',               '',      'bcbcbc',        '',               '']
 	\ , 'vimCommentString'            : [    245,     '',               '',      '8a8a8a',        '',               '']
@@ -82,13 +82,13 @@ call s:ColorDictParser({
 	\
 	\ , 'SpecialKey'                  : [    239,     '',               '',      '4e4e4e',        '',               '']
 	\ , 'NonText'                     : [     88,     '',               '',      '870000',        '',               '']
-	\ , 'MatchParen'                  : [    231,     25,           'bold',      'ffffff',  '005faf',           'bold']
+	\ , 'MatchParen'                  : [    226,     '', 'underline,bold',      'ffff00',        '',           'bold']
 	\
 	\ , 'Constant'                    : [    137,     '',           'bold',      'af875f',        '',           'bold']
 	\ , 'Special'                     : [    150,     '',               '',      'afd787',        '',               '']
 	\ , 'Identifier'                  : [     66,     '',           'bold',      '5f8787',        '',           'bold']
 	\ , 'Statement'                   : [    186,     '',           'bold',      'd7d787',        '',           'bold']
-	\ , 'PreProc'                     : [    247,     '',               '',      '9e9e9e',        '',               '']
+	\ , 'PreProc'                     : [    250,     '',               '',      'bcbcbc',        '',               '']
 	\ , 'Type'                        : [     67,     '',           'bold',      '5f87af',        '',           'bold']
 	\ , 'String'                      : [    143,     '',               '',      'afaf5f',        '',               '']
 	\ , 'Number'                      : [    173,     '',               '',      'd7875f',        '',               '']
@@ -100,7 +100,7 @@ call s:ColorDictParser({
 	\ , 'Keyword'                     : [    173,     '',               '',      'd7875f',        '',               '']
 	\ , 'Search'                      : [    231,    131,               '',      '000000',  'ffff5f', 'underline,bold']
 	\ , 'Title'                       : [    231,     '',               '',      'ffffff',        '',               '']
-	\ , 'Delimiter'                   : [    246,     '',               '',      '949494',        '',               '']
+	\ , 'Delimiter'                   : [    250,     '',               '',      'bcbcbc',        '',               '']
 	\ , 'StorageClass'                : [    187,     '',               '',      'd7d7af',        '',               '']
 	\ , 'Operator'                    : [    180,     '',               '',      'd7af87',        '',               '']
 	\
